@@ -1,6 +1,6 @@
 
 ---
-title: "Documentation"
+title: "grps-wiki"
 linkTitle: "Documentation"
 weight: 20
 menu:
@@ -9,7 +9,7 @@ menu:
 ---
 
 {{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
+Welcome to the GRPS wiki. 
 {{% /pageinfo %}}
 
 
