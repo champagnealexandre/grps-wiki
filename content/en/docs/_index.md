@@ -1,6 +1,6 @@
 
 ---
-title: "grps-wiki"
+title: "Wiki du groupe de recherche de Paul Charbonneau"
 linkTitle: "Documentation"
 weight: 20
 menu:
@@ -9,16 +9,19 @@ menu:
 ---
 
 {{% pageinfo %}}
-Welcome to the GRPS wiki. 
+Bienvenue !
 {{% /pageinfo %}}
 
+# Introduction
 
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. 
+Ce wiki est destiné aux étudiants de Paul Charbonneau, et a pour but de communiquer de l’information d’usage générale relativement aux outils de recherche du Groupe, et plus généralement de fournir certains renseignements utiles pour la recherche en simulation numérique.
 
-For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which lives in the [Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to copy its docs section. 
+## Gestion du contenu
 
-Other content such as marketing material, case studies, and community updates should live in the [About](/about/) and [Community](/community/) pages.
+Ce wiki est basé sur le thème [Docsy](https://www.docsy.dev) du générateur de sites [Hugo](https://gohugo.io), et est hébergé gratuitement sur [Netlify](https://www.netlify.com). Le code source est maintenu dans un dépôt [Github](https://github.com) et il est possible de modifier les pages directement à partir des liens dans la barre latérale de droite. Il est également possible de modifier le dépôt localement et de pousser les modifications sur Github, auquel cas Netlify détecte automatiquement les changements et met à jour le site.
 
-Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
+Chaque page comporte une en-tête YAML et supporte la syntaxe [Markdown](https://www.markdownguide.org). Voir la [documentation de Docsy](https://www.docsy.dev/docs/) pour plus de détails.
 
+## Questions
 
+Pour toute question ou commentaire, veuillez contacter [Alexandre Champagne](mailto:alexandre.champagne-ruel@umontreal.ca).
