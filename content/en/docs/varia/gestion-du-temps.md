@@ -1,8 +1,7 @@
 ---
-title: "Formations"
-linkTitle: "Formations"
+title: "Gestion du temps"
 date: 2017-01-05
-weight: 51
+weight: 42
 description: >
   A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---

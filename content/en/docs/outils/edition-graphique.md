@@ -1,6 +1,5 @@
 ---
-title: "imgcat"
-linkTitle: "imgcat"
+title: "Édition graphique"
 date: 2017-01-05
 weight: 33
 description: >

@@ -1,7 +1,7 @@
 
 ---
 title: "Wiki du groupe de recherche de Paul Charbonneau"
-linkTitle: "Documentation"
+linkTitle: "Page de départ"
 weight: 20
 menu:
   main:

@@ -1,8 +1,7 @@
 ---
-title: "GNU Parallel"
-linkTitle: "GNU Parallel"
+title: "Organisation de conférences"
 date: 2017-01-05
-weight: 31
+weight: 44
 description: >
   A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---

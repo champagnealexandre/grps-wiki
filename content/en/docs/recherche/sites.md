@@ -1,8 +1,7 @@
 ---
-title: "Bash"
-linkTitle: "Bash"
+title: "Autres sites utiles"
 date: 2017-01-05
-weight: 21
+weight: 13
 description: >
   A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---

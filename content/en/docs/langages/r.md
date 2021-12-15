@@ -1,8 +1,7 @@
 ---
-title: "C/C++"
-linkTitle: "C/C++"
+title: "R"
 date: 2017-01-05
-weight: 23
+weight: 26
 description: >
   A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---

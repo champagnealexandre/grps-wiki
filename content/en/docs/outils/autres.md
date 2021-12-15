@@ -1,8 +1,7 @@
 ---
-title: "Julia"
-linkTitle: "Julia"
+title: "Autres"
 date: 2017-01-05
-weight: 25
+weight: 34
 description: >
   A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---

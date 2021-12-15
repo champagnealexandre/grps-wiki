@@ -1,8 +1,7 @@
 ---
-title: "Python"
-linkTitle: "Python"
+title: "Langages de programmation"
 date: 2017-01-05
-weight: 22
+weight: 20
 description: >
   A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---

@@ -1,8 +1,7 @@
 ---
-title: "git"
-linkTitle: "git"
+title: "Bash"
 date: 2017-01-05
-weight: 39
+weight: 21
 description: >
   A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---
