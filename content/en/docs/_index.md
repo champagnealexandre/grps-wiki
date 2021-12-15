@@ -12,9 +12,11 @@ menu:
 Bienvenue !
 {{% /pageinfo %}}
 
-# Introduction
+Ce wiki est destiné aux étudiants de Paul Charbonneau, et a pour but de communiquer de l’information d’usage général relativement aux outils de recherche du Groupe, et plus généralement de fournir certains renseignements utiles pour la recherche en simulation numérique.
 
-Ce wiki est destiné aux étudiants de Paul Charbonneau, et a pour but de communiquer de l’information d’usage générale relativement aux outils de recherche du Groupe, et plus généralement de fournir certains renseignements utiles pour la recherche en simulation numérique.
+La plupart des procédures décrites dans ces pages présument que vous travaillez dans un environnement *nix (linux, macOS).
+
+Cette documentation n’a aucunement pour but de décrire de manière exhaustive chaque langage de programmation et chaque application, mais plutôt d’offrir une recension des différentes solutions qui peuvent s’appliquer à un problème donné, et de fournir un point de départ minimal à l’installation et au fonctionnement de ces dernières.
 
 ## Gestion du contenu
 

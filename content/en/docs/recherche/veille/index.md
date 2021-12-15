@@ -22,9 +22,23 @@ Le site [ResearchGate](http://researchgate.net) est un réseau social où on peu
 
 Un lecteur RSS est un moyen extrêmement efficace de passer en revue une grande quantité d’articles sans avoir nécessairement à visiter les pages web individuelles de chaque publication. La grande majorité des revues scientifiques et blogues possèdent des fils RSS auxquels il est possible de souscrire.
 
-{{< imgproc feedly Fit "800x600" Gaussian>}}
-Exemple d’entrées provenant de quelques fils RSS dans Feedly.
-{{< /imgproc >}}
+<style>
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 800px;
+    margin: auto;
+}
+
+figcaption {
+  padding: 2px;
+  text-align: center;
+}
+</style>
+
+<img src="feedly.png" style="width:80%">
 
 ## Twitter
 
