@@ -20,6 +20,8 @@ On peut notamment utiliser [F2PY](https://numpy.org/doc/stable/f2py/) pour inter
 
 ## Exemple introductif
 
+> Syntaxe et compilation d’un exemple minimal de type "hello world".
+
 Un code Fortran de type "hello world" pourrait ressembler à:
 
 ```fortran
@@ -28,3 +30,12 @@ program hello
   print *, 'Hello, World!'
 end program hello
 ```
+
+On peut le compiler à l’aide de
+
+```shell
+gfortran -o hello hello.f90
+```
+
+ce qui produit l’exécutable `hello`.
+

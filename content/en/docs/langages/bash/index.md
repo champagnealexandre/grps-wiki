@@ -14,6 +14,8 @@ L’utilisation de scripts `bash` (ou son alternative, `zsh`) est un moyen prati
 
 ## Creation d’un script
 
+> Création d’un script minimal et syntaxe de base.
+
 Un script `bash` est simplement un fichier texte exécutable qui comporte optionnellement une extension `.sh`. Pour créer le script `test.sh` et le rendre exécutable, on peut faire:
 
 ```shell

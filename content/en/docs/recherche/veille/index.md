@@ -18,6 +18,8 @@ On présente ci-dessous quelques outils pour se tenir au courant de la sortie de
 
 Le site [ResearchGate](http://researchgate.net) est un réseau social où on peut suivre des chercheurs, se créer un profil académique, et y entrer nos publications. Ce ne sont pas tous les chercheurs qui y ont un compte mais le site est néanmoins relativement populaire (du moins, dans mon domaine). Cela dit, ce ne sont pas tous les chercheurs qui y déposent leurs articles, et l’interface n’est pas tellement efficace pour faire une veille de la recherche de manière générale. Solution complémentaire dans mon cas.
 
+<img src="researchgate.png" style="width:80%">
+
 ## Feedly
 
 > Lecteur RSS qui permet d’être mis à jour en temps réel de la sortie de nouvelles publications (de manière générale, pas seulement scientifiques).
@@ -26,30 +28,18 @@ Le site [ResearchGate](http://researchgate.net) est un réseau social où on peu
 
 Un lecteur RSS est un moyen extrêmement efficace de passer en revue une grande quantité d’articles sans avoir nécessairement à visiter les pages web individuelles de chaque publication. La grande majorité des revues scientifiques et blogues possèdent des fils RSS auxquels il est possible de souscrire.
 
-<style>
-figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 800px;
-    margin: auto;
-}
-
-figcaption {
-  padding: 2px;
-  text-align: center;
-}
-</style>
-
 <img src="feedly.png" style="width:80%">
 
 ## Twitter
+
+> Ressource parfois utile pour suivre des chercheurs et groupes de recherche précis.
 
 Le réseau social [Twitter](https://twitter.com/) est particulièrement populaire auprès de la communauté scientifique. Le désavantage, c’est que vous allez autant y voir passer des *memes* de chats que des publications scientifiques. Cela étant dit, peut être pratique pour découvrir de nouveaux chercheurs, publiciser votre recherche et interagir directement avec les auteurs de publications de manière informelle. Plusieurs autres contenus pertinents y sont publiés également -- tutoriels, références à de nouveaux outils, etc.
 
 {{< alert color="warning" title="Attention" >}}Twitter peut rapidement devenir une grosse perte de temps. À utiliser intelligemment.{{< /alert >}}
 
-## Les bonnes vieilles listes de courriel
+## Listes de courriel
+
+> Beaucoup de journaux, groupes ou instituts de recherche offrent des listes de courriel.
 
 Plusieurs université, départements, groupes de recherche et autres regroupements/organismes déploient des listes de diffusions courriel. Utile pour se garder informé des conférences à venir, nouveaux articles publiés, actualités scientifiques et offres d’emploi.

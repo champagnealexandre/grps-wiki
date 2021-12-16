@@ -17,9 +17,13 @@ Il est très utile pour prendre des notes de manière plus informelle qu’avec 
 
 ## Éditeurs
 
+> Quelques éditeurs pouvant être utilisés pour le Markdown.
+
 ### MacDown
 
 [MacDown](https://macdown.uranusjr.com) est un éditeur open source sous macOS qui permet de créer rapidement des documents Markdown et de les prévisualiser.
+
+<img src="macdown.png" style="width:80%">
 
 ### emacs
 
@@ -30,6 +34,8 @@ Comme pour [l’édition de documents latex](../latex#emacs), emacs est un autre
 [Obsidian](../../recherche/gestion-information#obsidian) est basé sur une certaine variation du langage Markdown, et peut être tout à fait utile pour entrer des notes dans ce langage. Moins pratique pour l’édition de fichiers individuels toutefois.
 
 ## Syntaxe de base
+
+> Syntaxe de base commune à virtuellement toutes les implémentations de Markdown.
 
 On insère les titres en sous-titres via
 ```

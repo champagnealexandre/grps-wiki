@@ -1,7 +1,7 @@
 
 ---
-title: "Wiki du groupe de recherche de Paul Charbonneau"
-linkTitle: "Page de départ"
+title: "Wiki du GRPS"
+linkTitle: "Wiki du GRPS"
 weight: 20
 menu:
   main:
@@ -9,14 +9,14 @@ menu:
 ---
 
 {{% pageinfo %}}
-Bienvenue !
+Bienvenue sur le wiki du GRPS!
 {{% /pageinfo %}}
 
-Ce wiki est destiné aux étudiants de Paul Charbonneau, et a pour but de communiquer de l’information d’usage général relativement aux outils de recherche du Groupe, et plus généralement de fournir certains renseignements utiles pour la recherche en simulation numérique.
+Ce wiki est destiné aux étudiants de Paul Charbonneau et a pour but de communiquer de l’information d’usage général relativement aux outils de recherche du Groupe, et plus généralement de fournir certains renseignements utiles pour la recherche en simulation numérique. Des ressources, applications et informations sont présentées sur la [recherche](recherche) et les [langages de programmation](langages), ainsi plusieurs [outils](outils) d’ordre plus général. Diverses [information concernant plus spécifiquement l’UdeM](info-udem) sont aussi présentes.
 
 La plupart des procédures décrites dans ces pages présument que vous travaillez dans un environnement *nix (linux, macOS).
 
-Cette documentation n’a aucunement pour but de décrire de manière exhaustive chaque langage de programmation et chaque application, mais plutôt d’offrir une recension des différentes solutions qui peuvent s’appliquer à un problème donné, et de fournir un point de départ minimal à l’installation et au fonctionnement de ces dernières.
+Cette documentation n’a évidemment pas pour but de décrire de manière exhaustive chaque langage de programmation et chaque application, mais plutôt d’offrir une recension des différentes solutions qui peuvent s’appliquer à un problème donné, et de fournir un point de départ minimal à l’installation et au fonctionnement de ces dernières.
 
 ## Gestion du contenu
 
@@ -24,6 +24,6 @@ Ce wiki est basé sur le thème [Docsy](https://www.docsy.dev) du générateur d
 
 Chaque page comporte une en-tête YAML et supporte la syntaxe [Markdown](https://www.markdownguide.org). Voir la [documentation de Docsy](https://www.docsy.dev/docs/) pour plus de détails.
 
-## Questions
+### Questions
 
-Pour toute question ou commentaire, veuillez contacter [Alexandre Champagne](mailto:alexandre.champagne-ruel@umontreal.ca).
+Pour toute question ou commentaire, vous pouvez contacter [Alexandre Champagne](mailto:alexandre.champagne-ruel@umontreal.ca).

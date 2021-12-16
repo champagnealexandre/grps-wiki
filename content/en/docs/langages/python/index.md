@@ -14,6 +14,8 @@ Vous êtes probablement déjà relativement familier avec Python, donc je ne m�
 
 ## Environnements
 
+> Présentation des divers environnements (interpréteurs, gestionnaires de packages et outils) supportant Python.
+
 ### Anaconda
 
 [Anaconda](https://anaconda.org) est probablement la distribution la plus populaire du langage Python, disponible sur plusieurs plateformes.
@@ -37,6 +39,8 @@ conda develop <dir>
 
 ## Packages utiles
 
+> Quelques packages utiles pour la modélisation numérique.
+
 * **numpy** : se passe de présentation.
 * **matplotlib** : idem.
 * **scipy** : idem.
@@ -48,5 +52,7 @@ conda develop <dir>
 [^1]: Dans la réalité, `numba` peut être très efficace pour accélérer des algorithmes très simples qui nécessitent peu de lignes de code et le moins de packages possible, mais son utilisation devient très difficile pour des codes plus longs, qui font appel à des packages externes ou du code orienté objet. De plus, les messages d’erreur de `numba` sont des plus cryptiques, donc bonne chance pour débugger votre code.
 
 ## Interface avec d’autres langages
+
+> Packages permettant de créer des codes hybrides comportant des modules compilés en C ou en Fortran, d’exécution beaucoup plus rapide que le Python de manière générale.
 
 On peut interfacer du code Python avec des routines écrites en C ou en Fortran, avec [Cython](https://cython.org) et [F2PY](https://numpy.org/doc/stable/f2py/) respectivement.

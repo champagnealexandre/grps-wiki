@@ -12,6 +12,8 @@ On détaille ci-dessous les différentes offres de bourses d’études et de dé
 
 ## Bourses gouvernementales
 
+> Offres de financement des organismes gouvernementaux provinciaux et fédéraux.
+
 ### CRSNG
 
 Le CRSNG offre des [bourses de maîtrise](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_fra.asp) et de [doctorat](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/bellandpostgrad-belletsuperieures_fra.asp).
@@ -22,11 +24,15 @@ Le FRQNT offre aussi des [bourses de maîtrise et de doctorat](https://frq.gouv.
 
 ## Bourses de l’ASEQ
 
+> Offres de financement de l’Alliance pour la santé étudiante au Québec.
+
 ### Bourse de la fondation ASEQ
 
 La [bourse de la fondation ASEQ](http://www.fondationaseq.com) permet de récolter jusqu’à 5000$ pour des projets étudiants.
 
 ## Bourses de la FAECUM
+
+> Offres de financement de la Fédération des Associations Étudiantes du Campus de l’Université de Montréal.
 
 ### PIÉ
 
@@ -41,6 +47,8 @@ La [Subvention aux initiatives étudiantes (SIÉ)](https://www.ficsum.com/soutie
 Le [Programme d'aide au rayonnement du savoir étudiant des cycles supérieurs (PARSECS)](http://www.faecum.qc.ca/services/bourses-subventions-et-prix#parsecs) permet de récolter jusqu’à 500$ pour assister (et/ou présenter) à des conférences à l’extérieur.
 
 ## Bourses de l’UdeM
+
+> Offres de financement de l’Université de Montréal.
 
 ### FAVE
 

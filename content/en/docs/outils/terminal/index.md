@@ -12,6 +12,8 @@ On donne ici une description de quelques outils utiles au terminal. Beaucoup de 
 
 ## ssh
 
+> Utilitaire de connexion sécurisée au terminal d’une machine distante.
+
 [SSH](https://en.wikipedia.org/wiki/Secure_Shell) est un protocole qui permet de se connecter de manière sécurisée à distance au terminal d’une autre machine, par exemple celles de la grappe de calcul. La plupart des systèmes d’exploitation disposent d’emblée d’une application (normalement appelée `ssh` elle aussi) qui permet la connexion.
 
 Pour se connecter:
@@ -39,6 +41,8 @@ ssh-copy-id remote_username@server_ip_address
 ```
 
 ## git
+
+> Utilitaire de contrôle de version pour codes & documents.
 
 [Git](https://git-scm.com) est un système de contrôle de version qui permet de gérer les différentes versions (passées, ou alternatives) d’un code, et qui peut agir en même temps comme copie de sauvegarde[^1]. On l’utilise fréquemment avec des services comme [Github](https://github.com) ou [Bitbucket](https://bitbucket.org), qui agissent comme serveur distant sur lesquels les *dépôts* locaux sont sauvegardés. La plupart des systèmes d’exploitation possèdent d’entrée de jeu une version de `git`.
 
@@ -77,8 +81,11 @@ On peut se servir de git pour suivre les mises à jour d’un code (peu importe 
 
 [^1]: Généralement pour des fichiers texte (e.g. code source). Git ne prend pas en charge les fichiers volumineux, donc ce n’est pas *à proprement parler* une application de sauvegarde.
 
+<img src="git.gif" style="width:80%">
 
 ## parallel
+
+> Utilitaire de parallélisation de processus, tant en local que sur une machine distante.
 
 [GNU Parallel](https://www.gnu.org/software/parallel/) est une application qui permet de lancer des processus simultanément sur une machine (local ou distante, via SSH), de manière automatisée, et en permettant une grande flexibilité.
 
@@ -92,7 +99,11 @@ parallel --env PATH --workdir . --sshloginfile ~/cluster_hosts.txt --sshdelay 0.
 
 pour lancer une série de processus sur la liste de serveurs contenue dans le fichier `cluster_hosts.txt`.
 
+<img src="parallel.jpg" style="width:80%">
+
 ## curl et wget
+
+> Utilitaires de requêtes web.
 
 `curl` et `wget` permettent respectivement d’afficher dans le terminal et de télécharger des pages web (ou fichiers) présents sur un serveur. Ils sont normalement présents sur une machine *nix sans besoin d’être installés.
 
@@ -110,7 +121,11 @@ wget www.google.com
 
 télécharge le fichier `index.html` du serveur.
 
+<img src="curl.png" style="width:80%">
+
 ## imgcat
+
+> Utilitaire d’affichage d’images dans le terminal.
 
 [imgcat](https://pypi.org/project/imgcat/) est un package Python qui peut aussi être directement appelé via la ligne de commande. Il sert à afficher des images (`png`, etc. mais aussi `pdf`) via le terminal. Très pratique e.g. lorsqu’on se connecte à distance sur une machine.
 
@@ -123,7 +138,11 @@ imgcat test.pdf
 
 affiche les fichiers `test.png` et `test.pdf`.
 
+<img src="imgcat.png" style="width:80%">
+
 ## tar, gzip et (un)zip
+
+> Utilitaire d’archivage et de compression de fichiers.
 
 Présents d’emblée sur les systèmes *nix, `tar` et `(un)zip` permettent de créer des archives (de dossiers, fichiers) ou d’extraire les fichiers y étant contenus. La commande `zip` crée un fichier compressé "zip", tandis que la commande `tar` ne crée qu’une archive (qui n’est pas compressée). On peut aussi compresser une archive `tar` avec la commande `gzip` afin de créer une archive `.tar.gz` compressée.
 
@@ -163,7 +182,11 @@ et pour la décompresser,
 gzip -d <file.gz>
 ```
 
+<img src="tar.png" style="width:80%">
+
 ## brew
+
+> Gestionnaire d’applications sous macOS.
 
 [Brew](https://brew.sh) est un gestionnaire d’applications pour macOS (similaire à `yum` et autres sous linux) qui contient une grande quantité d’outils.
 
@@ -173,7 +196,11 @@ Par exemple, pour installer `emacs` on peut faire
 brew install emacs
 ```
 
+<img src="brew.png" style="width:80%">
+
 ## emacs
+
+> Éditeur texte.
 
 [Emacs](https://www.gnu.org/software/emacs/) est l’un des grand-pères du "Notepad" traditionnel en fonctionne dans le terminal. Normalement présent d’emblée sur les postes *nix, il peut aussi être mis à jour (puisqu’il est toujours activement développé).
 
@@ -182,13 +209,21 @@ Deux avantages importants de `emacs`:
 * il s’exécute via le terminal, donc possible de travailler à distance (e.g. via `ssh`) facilement
 * il possède d’innombrables raccourcis clavier (qui sont personnalisables), ce qui permet d’accélérer beaucoup l’édition de fichiers
 
+<img src="emacs.png" style="width:80%">
+
 ## vi
+
+> Éditeur texte.
 
 `vi` est le frère d’`emacs`, et permet également d’éditer rapidement des fichiers textes. Choisir entre `emacs` et `vi` est une question de préférence personnelle (mais `emacs` est *définitivement* supérieur).
 
 Présent également d’emblée sur les postes *nix.
 
+<img src="vi.png" style="width:80%">
+
 ## time
+
+> Utilitaire de calcul du temps d’exécution d’une commande.
 
 Permet de mesurer le temps d’exécution d’une commande.
 
@@ -205,3 +240,5 @@ ls -R . > /dev/null  4.44s user 5.10s system 62% cpu 15.152 total
 ```
 
 Le temps `total` est le temps "réel" pris par la commande pour être utilisée (ici, 15.152 sec)
+
+<img src="time.png" style="width:80%">

@@ -14,7 +14,9 @@ Un script Makefile est à bien des égards similaire à un [script Bash](../bash
 
 ## Exemple: compilation d’un document LaTeX
 
-Par exemple, on peut se servir d’un script de ce genre pour compiler un document LaTeX:
+> On peut se servir d’un Makefile pour compiler automatiquement et rapidement un document latex.
+
+Par exemple, on peut se servir d’un script de ce genre pour compiler un document latex:
 
 ```makefile
 .IGNORE:
@@ -35,11 +37,13 @@ clean:
 
 En copiant le texte ci-dessus dans un fichier sans extension nommé `Makefile` (notez le `M` majuscule), on peut alors taper les commandes suivantes dans le répertoire où se trouve le fichier pour exécuter les commandes associées du Makefile:
 
-* `make` : exécute la section `default` (compile le fichier LaTeX)
-* `make bib` : exécute la section `bib` (compile le fichier LaTeX et la bibliographie)
+* `make` : exécute la section `default` (compile le fichier latex)
+* `make bib` : exécute la section `bib` (compile le fichier latex et la bibliographie)
 * `make clean` : exécute la section `clean` (nettoie le répertoire des fichiers temporaires)
 
 ## Exemple: compilation d’un code C
+
+> Un exemple un peu plus élaboré: conception d’un Makefile pour compiler un code C à l’aide de `gcc`.
 
 On peut aussi se servir d’un Makefile pour compiler un code C. Par exemple, le script suivant compile mon code de calcul selon le système d’exploitation (la procédure de compilation diffère de l’un à l’autre):
 

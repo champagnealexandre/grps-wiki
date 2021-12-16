@@ -12,15 +12,21 @@ On présente ici des informations sur la connexion à la grappe de calcul du Gro
 
 ## Connexion
 
+> Connexion aux serveurs de grappe de calcul. La procédure détaillée n’est pas présentée puisque ce site est public.
+
 On peut se connecter en [ssh](../../outils/terminal#ssh) aux serveurs de la grappe de calcul.
 
 De l’extérieur du campus, on doit passer par la machine de proxy ou par le VPN de l’Université de Montréal.
 
 ## Spécifications matérielles
 
+> Spécifications matérielles des serveurs de calcul de la grappe.
+
 La grappe de calcul consiste en une vingtaine de machines possédant chacune entre 8 et 24 coeurs de processeur, et entre 8 et 32GB de mémoire vive. Votre répertoire de travail est situé sur un disque partagé, donc peu importe la machine où vous vous connectez vous avez accès aux mêmes fichiers, en temps réel.
 
 ## Environnement logiciel
+
+> Description de l’environnement logiciel des serveurs de la grappe.
 
 Les serveurs opèrent sous CentOS Linux et possèdent des versions relativement à jour des interpréteurs (Python, etc.) et compilateurs (Fortran, C, etc.)
 
@@ -29,6 +35,8 @@ Les machines n’ont pas d’accès direct à internet.
 Vous pouvez y installer des applications dans la mesure où celles-ci ne nécessitent pas d’accès administrateur pour être installées.
 
 ## Scripts utiles
+
+> Quelques scripts utiles lors de l’utilisation de la grappe.
 
 ### Liste de serveurs
 

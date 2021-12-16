@@ -14,6 +14,8 @@ J’imagine que rendu ici vous êtes tout à fait familiers avec le langage late
 
 ## Gestion bibliographique
 
+> Quelques formats/packages de gestion bibliographique pour latex.
+
 ### bibtex
 
 [Bibtex](https://www.bibtex.com) est l’un des plus vieux format de gestion bibliographique sous latex. On l’utilise avec le package `natbib`. Plusieurs journaux nécessitent l’entrée de citations avec `natbib`.
@@ -24,6 +26,8 @@ Plus récent que `bibtex`, le format [BibLatex](https://ctan.org/pkg/biblatex?la
 
 ## Éditeurs
 
+> Quelques éditeurs, tant spécifiques au latex que généraux.
+
 ### texpad
 
 [Texpad](https://www.texpad.com) est un éditeur macOS relativement bien conçu qui a deux avantages plutôt pratiques selon moi:
@@ -33,9 +37,13 @@ Plus récent que `bibtex`, le format [BibLatex](https://ctan.org/pkg/biblatex?la
 
 [^1]: À noter que Texpad utilise son outil de compilation interne qui peut ne pas être compatible avec tous les packages latex, et qui peut devenir moins pratique pour les documents plus lourds.
 
+<img src="texpad.png" style="width:80%">
+
 ### Overleaf
 
 [Overleaf](https://www.overleaf.com) est un service en ligne qui permet de créer des documents latex et de les visualiser directement dans le fureteur. Se connecte optionnellement avec d’autres services (e.g. Github) ce qui peut être pratique. Possède également des fonctionnalités de collaboration entre auteurs.
+
+<img src="overleaf.png" style="width:80%">
 
 ### emacs
 

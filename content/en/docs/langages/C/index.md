@@ -14,7 +14,7 @@ Un des attraits importants des langages compilés (tels C et C++) par rapport au
 
 Voici un bref comparatif:
 
-<img src="speed.png" style="width:60%">
+<img src="speed.png" style="width:80%">
 
 Le principal désavantage de ce type de langage est toutefois l’offre beaucoup moins importante de librairies scientifiques (pas de `numpy` ici) et la syntaxe parfois plus complexe que celle des langages plus "haut niveau".
 
@@ -23,6 +23,8 @@ Le langage C possède par ailleurs plusieurs versions (C11, C17) et une extensio
 Finalement, on peut interfacer du code C et du code Python via [Cython](https://cython.org).
 
 ## Exemple introductif
+
+> Syntaxe et compilation d’un exemple minimal de type "hello world".
 
 Un code C de type "hello world" pourrait ressembler à:
 
@@ -44,6 +46,8 @@ gcc hello.c -o hello
 ce qui produit l’exécutable `hello`.
 
 ## Librairies scientifiques
+
+> Recersion des librairies de calcul scientifique en C/C++.
 
 ### GNU Scientific Library (GSL)
 
