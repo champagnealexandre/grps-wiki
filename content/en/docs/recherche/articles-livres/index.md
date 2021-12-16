@@ -3,8 +3,12 @@ title: "Articles et livres"
 date: 2017-01-05
 weight: 11
 description: >
-  Ressources pour trouver des articles et livres, et pour évaluer la réputation d’une revue scientifique.
+  Ressources concernant la littérature scientifique.
 ---
+
+{{% pageinfo %}}
+On présente ici diverses ressources web pour obtenir les livres et articles, et pour évaluer la réputation des revues scientifiques.
+{{% /pageinfo %}}
 
 ## Obtenir des articles & livres
 

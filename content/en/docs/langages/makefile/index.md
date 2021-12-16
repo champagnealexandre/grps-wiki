@@ -6,6 +6,10 @@ description: >
   Présentation des rudiments du langage de scripts Makefile.
 ---
 
+{{% pageinfo %}}
+On présente dans cette page quelques exemples de fichiers Makefile pouvant être utiles pour la compilation de documents latex, codes C, etc.
+{{% /pageinfo %}}
+
 Un script Makefile est à bien des égards similaire à un [script Bash](../bash), mais possède une syntaxe parfois légèrement différente. Les scripts Makefile sont exécutés non pas par `bash` mais par `make`, et servent de manière générale à compiler des objets.
 
 ## Exemple: compilation d’un document LaTeX

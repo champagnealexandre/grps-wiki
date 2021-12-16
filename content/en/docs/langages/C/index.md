@@ -6,6 +6,10 @@ description: >
   Présentation des rudiments du langage C/C++.
 ---
 
+{{% pageinfo %}}
+On présente ci-dessous une brève introduction au langage C avec quelques exemples de codes, et une recension des librairies scientifiques utiles en modélisation numérique.
+{{% /pageinfo %}}
+
 Un des attraits importants des langages compilés (tels C et C++) par rapport aux langages interprétés (tel Python) vient de leur vitesse d’exécution.
 
 Voici un bref comparatif:

@@ -7,6 +7,10 @@ description: >
 math: true
 ---
 
+{{% pageinfo %}}
+On présente ci-dessous une brève introduction au langage Markdown, incluant quelques éditeurs et la syntaxe de base du langage.
+{{% /pageinfo %}}
+
 Le langage Markdown est une sorte de version très **très** simplifiée de latex, qui permet de créer des documents simples comportant certains éléments de mise en forme. Le site web que vous lisez présentement utilise une variation du langage Markdown.
 
 Il est très utile pour prendre des notes de manière plus informelle qu’avec latex, mais peut également être utilisé pour produire des documents PDF. On peut aussi y entrer des équations, ajouter des images, etc.

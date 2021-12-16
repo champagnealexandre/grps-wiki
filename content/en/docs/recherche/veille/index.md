@@ -3,10 +3,14 @@ title: "Veille"
 date: 2017-01-05
 weight: 12
 description: >
-  Courte présentation de quelques outils pour effectuer la veille de nouvelles publications.
+  Outils pour effectuer la veille de publications.
 resources:
 - src: "**feedly*.png"
 ---
+
+{{% pageinfo %}}
+On présente ci-dessous quelques outils pour se tenir au courant de la sortie de nouveaux articles dans un champ de recherche donné, et des annonces de colloques/conférences, postes disponibles, etc.
+{{% /pageinfo %}}
 
 ## ResearchGate
 

@@ -6,6 +6,10 @@ description: >
   Présentation des rudiments du langage Fortran.
 ---
 
+{{% pageinfo %}}
+On présente dans cette page quelques informations concernant le langage de programmation Fortran, les moyens de l’interfacer avec Python, et un bref exemple introductif.
+{{% /pageinfo %}}
+
 {{< alert color="warning" >}}Je connais très peu le Fortran, donc page à rédiger éventuellement.{{< /alert >}}
 
 Le principal attrait du Fortran est qu’il est, comme le C, un langage compilé. Ceci signifie que sa vitesse d’exécution est bien supérieure à votre Python habituel.

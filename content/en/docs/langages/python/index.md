@@ -6,6 +6,10 @@ description: >
   Présentation des rudiments du langage Python.
 ---
 
+{{% pageinfo %}}
+Cette page présente quelques informations sur les divers environnements Python, sur les packages pouvant être utiles en modélisation numérique, et sur les moyens d’interfacer Python avec d’autres langages de programmation compilés (Fortran, C).
+{{% /pageinfo %}}
+
 Vous êtes probablement déjà relativement familier avec Python, donc je ne m’étendrai pas sur le détail de la syntaxe. Toutefois, quelques informations pertinentes peuvent être mentionnées ici.
 
 ## Environnements

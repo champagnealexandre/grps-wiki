@@ -6,7 +6,21 @@ description: >
   Présentation des rudiments du langage latex.
 ---
 
-J’imagine que rendu ici vous êtes tout à fait familiers avec le langage latex.
+{{% pageinfo %}}
+On présente dans cette page quelques informations utiles pour le langage latex -- notamment les packages de gestion bibliographique, et quelques éditeurs utiles.
+{{% /pageinfo %}}
+
+J’imagine que rendu ici vous êtes tout à fait familiers avec le langage latex, donc je ne vais y consigner que des éléments plus avancés.
+
+## Gestion bibliographique
+
+### bibtex
+
+[Bibtex](https://www.bibtex.com) est l’un des plus vieux format de gestion bibliographique sous latex. On l’utilise avec le package `natbib`. Plusieurs journaux nécessitent l’entrée de citations avec `natbib`.
+
+### biblatex
+
+Plus récent que `bibtex`, le format [BibLatex](https://ctan.org/pkg/biblatex?lang=en) (et le package du même nom) possèdent de nombreuses fonctionnalités avancées que `bibtex` ne fournit pas, par exemple imprimer (facilement...) des entrées bibliographiques dans le texte, etc.
 
 ## Éditeurs
 
@@ -25,10 +39,4 @@ J’imagine que rendu ici vous êtes tout à fait familiers avec le langage late
 
 ### emacs
 
-[Emacs](../../outils/terminal#emacs) est l’un des grand-pères du "Notepad" traditionnel en fonctionne dans le terminal. Il peut évidemment servir à éditer des documents latex, et possède par ailleurs certaines extensions destinées précisément à ça ([auctex](https://www.gnu.org/software/auctex/), par exemple).
-
-Deux avantages importants de `emacs`:
-
-* il s’exécute via le terminal, donc possible de travailler à distance (e.g. via `ssh`) facilement
-* il possède d’innombrables raccourcis clavier (qui sont personnalisables), ce qui permet d’accélérer beaucoup l’édition de fichiers
-
+[emacs](../../outils/terminal#emacs) peut évidemment servir à éditer des documents latex, et possède par ailleurs certaines extensions destinées précisément à ça ([auctex](https://www.gnu.org/software/auctex/), par exemple).

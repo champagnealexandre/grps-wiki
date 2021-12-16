@@ -3,236 +3,205 @@ title: "Terminal"
 date: 2017-01-05
 weight: 31
 description: >
-  A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
+  Aperçu de quelques commandes utiles au terminal.
 ---
 
 {{% pageinfo %}}
-This is a placeholder page. Replace it with your own content.
+On donne ici une description de quelques outils utiles au terminal. Beaucoup de ces outils sont propres à un environnement *nix (macOS, linux, etc.)
 {{% /pageinfo %}}
 
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
+## ssh
 
-There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.
+[SSH](https://en.wikipedia.org/wiki/Secure_Shell) est un protocole qui permet de se connecter de manière sécurisée à distance au terminal d’une autre machine, par exemple celles de la grappe de calcul. La plupart des systèmes d’exploitation disposent d’emblée d’une application (normalement appelée `ssh` elle aussi) qui permet la connexion.
 
-90's four loko seitan photo booth gochujang freegan tumeric listicle fam ugh humblebrag. Bespoke leggings gastropub, biodiesel brunch pug fashion axe meh swag art party neutra deep v chia. Enamel pin fanny pack knausgaard tofu, artisan cronut hammock meditation occupy master cleanse chartreuse lumbersexual. Kombucha kogi viral truffaut synth distillery single-origin coffee ugh slow-carb marfa selfies. Pitchfork schlitz semiotics fanny pack, ugh artisan vegan vaporware hexagon. Polaroid fixie post-ironic venmo wolf ramps **kale chips**.
+Pour se connecter:
 
-> There should be no margin above this first sentence.
->
-> Blockquotes should be a lighter gray with a border along the left side in the secondary color.
->
-> There should be no margin below this final sentence.
-
-## First Header 2
-
-This is a normal paragraph following a header. Knausgaard kale chips snackwave microdosing cronut copper mug swag synth bitters letterpress glossier **craft beer**. Mumblecore bushwick authentic gochujang vegan chambray meditation jean shorts irony. Viral farm-to-table kale chips, pork belly palo santo distillery activated charcoal aesthetic jianbing air plant woke lomo VHS organic. Tattooed locavore succulents heirloom, small batch sriracha echo park DIY af. Shaman you probably haven't heard of them copper mug, crucifix green juice vape *single-origin coffee* brunch actually. Mustache etsy vexillologist raclette authentic fam. Tousled beard humblebrag asymmetrical. I love turkey, I love my job, I love my friends, I love Chardonnay!
-
-Deae legum paulatimque terra, non vos mutata tacet: dic. Vocant docuique me plumas fila quin afuerunt copia haec o neque.
-
-On big screens, paragraphs and headings should not take up the full container width, but we want tables, code blocks and similar to take the full width.
-
-Scenester tumeric pickled, authentic crucifix post-ironic fam freegan VHS pork belly 8-bit yuccie PBR&B. **I love this life we live in**.
-
-
-## Second Header 2
-
-> This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
-
-### Header 3
-
-```
-This is a code block following a header.
+```shell
+ssh <adresse>
 ```
 
-Next level leggings before they sold out, PBR&B church-key shaman echo park. Kale chips occupy godard whatever pop-up freegan pork belly selfies. Gastropub Belinda subway tile woke post-ironic seitan. Shabby chic man bun semiotics vape, chia messenger bag plaid cardigan. 
+On peut aussi enregistrer ses informations de connexion dans la machine distante afin de ne pas avoir à entrer son nom d’utilisateur/mot de passe à chaque fois. Sur sa propre machine, si l’exécution de
 
-#### Header 4
-
-* This is an unordered list following a header.
-* This is an unordered list following a header.
-* This is an unordered list following a header.
-
-##### Header 5
-
-1. This is an ordered list following a header.
-2. This is an ordered list following a header.
-3. This is an ordered list following a header.
-
-###### Header 6
-
-| What      | Follows         |
-|-----------|-----------------|
-| A table   | A header        |
-| A table   | A header        |
-| A table   | A header        |
-
-----------------
-
-There's a horizontal rule above and below this.
-
-----------------
-
-Here is an unordered list:
-
-* Liverpool F.C.
-* Chelsea F.C.
-* Manchester United F.C.
-
-And an ordered list:
-
-1. Michael Brecker
-2. Seamus Blake
-3. Branford Marsalis
-
-And an unordered task list:
-
-- [x] Create a Hugo theme
-- [x] Add task lists to it
-- [ ] Take a vacation
-
-And a "mixed" task list:
-
-- [ ] Pack bags
-- ?
-- [ ] Travel!
-
-And a nested list:
-
-* Jackson 5
-  * Michael
-  * Tito
-  * Jackie
-  * Marlon
-  * Jermaine
-* TMNT
-  * Leonardo
-  * Michelangelo
-  * Donatello
-  * Raphael
-
-Definition lists can be used with Markdown syntax. Definition headers are bold.
-
-Name
-: Godzilla
-
-Born
-: 1952
-
-Birthplace
-: Japan
-
-Color
-: Green
-
-
-----------------
-
-Tables should have bold headings and alternating shaded rows.
-
-| Artist            | Album           | Year |
-|-------------------|-----------------|------|
-| Michael Jackson   | Thriller        | 1982 |
-| Prince            | Purple Rain     | 1984 |
-| Beastie Boys      | License to Ill  | 1986 |
-
-If a table is too wide, it should scroll horizontally.
-
-| Artist            | Album           | Year | Label       | Awards   | Songs     |
-|-------------------|-----------------|------|-------------|----------|-----------|
-| Michael Jackson   | Thriller        | 1982 | Epic Records | Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical | Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life |
-| Prince            | Purple Rain     | 1984 | Warner Brothers Records | Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal | Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain |
-| Beastie Boys      | License to Ill  | 1986 | Mercury Records | noawardsbutthistablecelliswide | Rhymin & Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill |
-
-----------------
-
-Code snippets like `var foo = "bar";` can be shown inline.
-
-Also, `this should vertically align` ~~`with this`~~ ~~and this~~.
-
-Code can also be shown in a block element.
-
-```
-foo := "bar";
-bar := "foo";
+```shell
+ls -al ~/.ssh/id_*.pub
 ```
 
-Code can also use syntax highlighting.
+retourne `No such file or directory` ou similaire, on se génère une clé RSA avec
 
-```go
-func main() {
-  input := `var foo = "bar";`
-
-  lexer := lexers.Get("javascript")
-  iterator, _ := lexer.Tokenise(nil, input)
-  style := styles.Get("github")
-  formatter := html.New(html.WithLineNumbers())
-
-  var buff bytes.Buffer
-  formatter.Format(&buff, style, iterator)
-
-  fmt.Println(buff.String())
-}
+```shell
+ssh-keygen -t rsa -b 4096 -C "your_email@domain.com"
 ```
 
+puis on copie ses informations de connexion sur la machine distante via
+
+```shell
+ssh-copy-id remote_username@server_ip_address
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+
+## git
+
+[Git](https://git-scm.com) est un système de contrôle de version qui permet de gérer les différentes versions (passées, ou alternatives) d’un code, et qui peut agir en même temps comme copie de sauvegarde[^1]. On l’utilise fréquemment avec des services comme [Github](https://github.com) ou [Bitbucket](https://bitbucket.org), qui agissent comme serveur distant sur lesquels les *dépôts* locaux sont sauvegardés. La plupart des systèmes d’exploitation possèdent d’entrée de jeu une version de `git`.
+
+Un "dépôt" git est simplement un répertoire qui contient un sous-répertoire nommé `.git` contenant la configuration du dépôt et les méta-données (historique, etc.) On peut créer un dépôt dans un dossier en faisant:
+
+```shell
+git init
 ```
 
-Inline code inside table cells should still be distinguishable.
-
-| Language    | Code               |
-|-------------|--------------------|
-| Javascript  | `var foo = "bar";` |
-| Ruby        | `foo = "bar"{`      |
-
-----------------
-
-Small images should be shown at their actual size.
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg/240px-Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg)
-
-Large images should always scale down and fit in the content container.
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg/1024px-Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg)
-
-_The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA._
-
-
-## Components
-
-### Alerts
-
-{{< alert >}}This is an alert.{{< /alert >}}
-{{< alert title="Note" >}}This is an alert with a title.{{< /alert >}}
-{{% alert title="Note" %}}This is an alert with a title and **Markdown**.{{% /alert %}}
-{{< alert color="success" >}}This is a successful alert.{{< /alert >}}
-{{< alert color="warning" >}}This is a warning.{{< /alert >}}
-{{< alert color="warning" title="Warning" >}}This is a warning with a title.{{< /alert >}}
-
-
-## Another Heading
-
-Add some sections here to see how the ToC looks like. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
-
-### This Document
-
-Inguina genus: Anaphen post: lingua violente voce suae meus aetate diversi. Orbis unam nec flammaeque status deam Silenum erat et a ferrea. Excitus rigidum ait: vestro et Herculis convicia: nitidae deseruit coniuge Proteaque adiciam *eripitur*? Sitim noceat signa *probat quidem*. Sua longis *fugatis* quidem genae.
-
-
-### Pixel Count
-
-Tilde photo booth wayfarers cliche lomo intelligentsia man braid kombucha vaporware farm-to-table mixtape portland. PBR&B pickled cornhole ugh try-hard ethical subway tile. Fixie paleo intelligentsia pabst. Ennui waistcoat vinyl gochujang. Poutine salvia authentic affogato, chambray lumbersexual shabby chic.
-
-### Contact Info
-
-Plaid hell of cred microdosing, succulents tilde pour-over. Offal shabby chic 3 wolf moon blue bottle raw denim normcore poutine pork belly.
-
-
-### External Links
-
-Stumptown PBR&B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.
-
-
-
+puis en ajoutant des fichiers au dépôt via
+```shell
+git add <fichiers>
+git commit -m '<message de mise à jour>'
+git branch -M main
+git remote add origin <repo-url>
+git push -u origin main
 ```
-This is the final element on the page and there should be no margin below this.
+
+où `<repo-url>` correspond à l’adresse d’un dépôt distant (Github, etc.) que l’on aura précédemment créé.
+
+Chaque fois qu’une modification substantielle doit être sauvegardée (e.g.: vous avez terminé de programmer une fonction importante d’un code), il suffit de `git add` les fichiers, entrer un message de mise à jour via `git commit` puis de pousser les changements sur le serveur via `git push`.
+
+À l’inverse, pour créer une copie locale d’un dépôt distant, on fait
+
+```shell
+git clone <adresse du dépôt>
 ```
+
+Pour voir l’historique de mise à jour d’un dépôt, on peut faire
+
+```shell
+git log
+```
+
+On peut se servir de git pour suivre les mises à jour d’un code (peu importe le langage de programmation), et même pour sauvegarder/suivre les changements d’un document latex. Un dépôt peut comporter n’importe quel type de fichier, dans la mesure où celui-ci respecte les limites de stockage du serveur.
+
+[^1]: Généralement pour des fichiers texte (e.g. code source). Git ne prend pas en charge les fichiers volumineux, donc ce n’est pas *à proprement parler* une application de sauvegarde.
+
+
+## parallel
+
+[GNU Parallel](https://www.gnu.org/software/parallel/) est une application qui permet de lancer des processus simultanément sur une machine (local ou distante, via SSH), de manière automatisée, et en permettant une grande flexibilité.
+
+Un exemple de situation où `parallel` est très utile: lancer une série de processus de calcul sur la grappe du groupe de recherche.
+
+Par exemple, on peut se servir d’une commande telle
+
+```shell
+parallel --env PATH --workdir . --sshloginfile ~/cluster_hosts.txt --sshdelay 0.1 --bar $@
+```
+
+pour lancer une série de processus sur la liste de serveurs contenue dans le fichier `cluster_hosts.txt`.
+
+## curl et wget
+
+`curl` et `wget` permettent respectivement d’afficher dans le terminal et de télécharger des pages web (ou fichiers) présents sur un serveur. Ils sont normalement présents sur une machine *nix sans besoin d’être installés.
+
+Par exemple,
+
+```shell
+curl www.google.com
+```
+
+affiche le contenu de la page dans le terminal, tandis que
+
+```shell
+wget www.google.com
+```
+
+télécharge le fichier `index.html` du serveur.
+
+## imgcat
+
+[imgcat](https://pypi.org/project/imgcat/) est un package Python qui peut aussi être directement appelé via la ligne de commande. Il sert à afficher des images (`png`, etc. mais aussi `pdf`) via le terminal. Très pratique e.g. lorsqu’on se connecte à distance sur une machine.
+
+Par exemple,
+
+```shell
+imgcat test.png
+imgcat test.pdf
+```
+
+affiche les fichiers `test.png` et `test.pdf`.
+
+## tar, gzip et (un)zip
+
+Présents d’emblée sur les systèmes *nix, `tar` et `(un)zip` permettent de créer des archives (de dossiers, fichiers) ou d’extraire les fichiers y étant contenus. La commande `zip` crée un fichier compressé "zip", tandis que la commande `tar` ne crée qu’une archive (qui n’est pas compressée). On peut aussi compresser une archive `tar` avec la commande `gzip` afin de créer une archive `.tar.gz` compressée.
+
+Pour créer un fichier zip,
+
+```shell
+zip -r <file.zip> <folder> -x <exclude>
+```
+
+et pour le décompresser,
+
+```shell
+unzip <file.zip>
+```
+
+Pour créer une archive tar,
+
+```shell
+tar cf <file.tar> <files>
+```
+
+et pour en extraire les fichiers,
+
+```shell
+tar xf <file.tar>
+```
+
+Finalement, pour compresser une archive tar avec `gzip`,
+
+```shell
+gzip <file>
+```
+
+et pour la décompresser,
+
+```shell
+gzip -d <file.gz>
+```
+
+## brew
+
+[Brew](https://brew.sh) est un gestionnaire d’applications pour macOS (similaire à `yum` et autres sous linux) qui contient une grande quantité d’outils.
+
+Par exemple, pour installer `emacs` on peut faire
+
+```shell
+brew install emacs
+```
+
+## emacs
+
+[Emacs](https://www.gnu.org/software/emacs/) est l’un des grand-pères du "Notepad" traditionnel en fonctionne dans le terminal. Normalement présent d’emblée sur les postes *nix, il peut aussi être mis à jour (puisqu’il est toujours activement développé).
+
+Deux avantages importants de `emacs`:
+
+* il s’exécute via le terminal, donc possible de travailler à distance (e.g. via `ssh`) facilement
+* il possède d’innombrables raccourcis clavier (qui sont personnalisables), ce qui permet d’accélérer beaucoup l’édition de fichiers
+
+## vi
+
+`vi` est le frère d’`emacs`, et permet également d’éditer rapidement des fichiers textes. Choisir entre `emacs` et `vi` est une question de préférence personnelle (mais `emacs` est *définitivement* supérieur).
+
+Présent également d’emblée sur les postes *nix.
+
+## time
+
+Permet de mesurer le temps d’exécution d’une commande.
+
+e.g.
+
+```shell
+time ls -R . > /dev/null
+```
+
+retourne quelque chose comme
+
+```shell
+ls -R . > /dev/null  4.44s user 5.10s system 62% cpu 15.152 total
+```
+
+Le temps `total` est le temps "réel" pris par la commande pour être utilisée (ici, 15.152 sec)

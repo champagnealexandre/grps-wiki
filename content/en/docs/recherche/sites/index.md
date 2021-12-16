@@ -3,8 +3,12 @@ title: "Autres sites utiles"
 date: 2017-01-05
 weight: 13
 description: >
-  Quelques autres sites utiles qui n’entrent pas dans les catégories précédentes.
+  Autres ressources.
 ---
+
+{{% pageinfo %}}
+Ce-dessous on présente les autres ressources qui peuvent être utiles à la recherche.
+{{% /pageinfo %}}
 
 ## ORCID
 

@@ -21,7 +21,7 @@ Il est également possible de payer pour la synchronisation de notre bibliograph
 * **Better BibTex** : permet d’exporter des références sous format BibTex pour utilisation avec LaTeX
 * **PubPeer** : permet de voir si un article comporte des commentaires sur [PubPeer](https://pubpeer.com)
 * **scite** : comptabilise les références à un article
-* **zotxt** : utilisé notamment par [Hook](../../outils/autres#hook)
+* **zotxt** : utilisé notamment par [Hook](../../outils/autres-outils#hook)
 * **Zutilo** : permet toute une gamme de fonctions avancées, comme copier des liens URIs, etc.
 
 ## JabRef

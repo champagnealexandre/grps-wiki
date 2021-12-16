@@ -6,6 +6,10 @@ description: >
   Présentation des rudiments du langage de scripts bash.
 ---
 
+{{% pageinfo %}}
+On présente dans cette page les rudiments du langage de scripts bash -- création d’un script, syntaxe de base, etc.
+{{% /pageinfo %}}
+
 L’utilisation de scripts `bash` (ou son alternative, `zsh`) est un moyen pratique d’automatiser une foule de tâches dans un environnement *nix (linux, macOS, etc.) -- du lancement automatique de codes de calcul à l’exécution de tâches de maintenance.
 
 ## Creation d’un script
