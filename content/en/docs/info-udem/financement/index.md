@@ -53,3 +53,11 @@ Le [Programme d'aide au rayonnement du savoir étudiant des cycles supérieurs (
 ### FAVE
 
 Le [Fonds d'amélioration de la vie étudiante (FAVE)](http://www.faecum.qc.ca/services/bourses-subventions-et-prix#fave) permet d’obtenir des montants variables (qui peuvent être relativement élevés) pour des projets d’initiative étudiante.
+
+## Offres de financement du CRAQ
+
+> Offres de financement du Centre de Recherche en Astrophysique du Québec.
+
+### Financement de conférences
+
+Le [CRAQ](http://craq-astro.ca) finance à hauteur de 2000$ les évènements organisés par les membres du CRAQ.
