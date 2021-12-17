@@ -24,7 +24,10 @@ zotero://select/items/1_QCBWBUWP
 
 On peut insérer ce lien dans un autre programme qui supporte les URIs (e.g. macOS TextEdit, Obsidian, Todoist, etc.) et cliquer sur ce lien nous amène vers la référence dans Zotero.
 
-<img src="hook.png" style="width:80%">
+<figure>
+<img src="hook.png" style="width:100%">
+<figcaption>Hook.</figcaption>
+</figure>
 
 ## BetterTouchTools
 
@@ -32,7 +35,10 @@ On peut insérer ce lien dans un autre programme qui supporte les URIs (e.g. mac
 
 [BetterTouchTools](https://folivora.ai) est une application macOS qui permet de reconfigurer n’importe quelle combinaison de touches ou de geste du trackpad et de l’associer à toute une gamme d’actions prédéfinies (gestion des fenêtres, démarrage d’une application, etc.)
 
-<img src="btt.png" style="width:80%">
+<figure>
+<img src="btt.png" style="width:100%">
+<figcaption>BetterTouchTools.</figcaption>
+</figure>
 
 ## MountainDuck
 
