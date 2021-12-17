@@ -4,9 +4,15 @@
 const images = Array.from(document.querySelectorAll("img"));
 images.forEach(img => {
   mediumZoom(img, {
-    margin: 0, /* The space outside the zoomed image */
-    scrollOffset: 40, /* The number of pixels to scroll to close the zoom */
-    background: "#fff"
+    margin: 0,
+    scrollOffset: 40,
+    background: "#fff",
+    container: {
+     top: 100,
+     bottom: 50,
+     right: 300,
+     left: 300,
+     },
   });
 });
 </script>
