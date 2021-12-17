@@ -1,0 +1,72 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+const images = Array.from(document.querySelectorAll("img"));
+images.forEach(img => {
+  mediumZoom(img, {
+    margin: 0, /* The space outside the zoomed image */
+    scrollOffset: 40, /* The number of pixels to scroll to close the zoom */
+    container: null, /* The viewport to render the zoom in */
+    template: null /* The template element to display on zoom */
+  });
+});
+</script>
+
+<style>
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 400px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #fff;
+    color: #222;
+    font: smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+</style>
+
+{{ $links := .Site.Params.links }}
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        {{ with $links }}
+        {{ with index . "user"}}
+        {{ template "footer-links-block"  . }}
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        {{ with $links }}
+        {{ with index . "developer"}}
+        {{ template "footer-links-block"  . }}
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        {{ with .Site.Params.copyright }}<small class="text-white">&copy; {{ now.Year}} {{ .}} {{ T "footer_all_rights_reserved" }}</small>{{ end }}
+        {{ with .Site.Params.privacy_policy }}<small class="ml-1"><a href="{{ . }}" target="_blank" rel="noopener">{{ T "footer_privacy_policy" }}</a></small>{{ end }}
+	{{ if not .Site.Params.ui.footer_about_disable }}
+		{{ with .Site.GetPage "about" }}<p class="mt-2"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>{{ end }}
+	{{ end }}
+      </div>
+    </div>
+  </div>
+</footer>
+{{ define "footer-links-block" }}
+<ul class="list-inline mb-0">
+  {{ range . }}
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="{{ .name }}" aria-label="{{ .name }}">
+    <a class="text-white" target="_blank" rel="noopener" href="{{ .url }}" aria-label="{{ .name }}">
+      <i class="{{ .icon }}"></i>
+    </a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
