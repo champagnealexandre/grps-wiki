@@ -18,7 +18,10 @@ On présente ci-dessous quelques outils pour se tenir au courant de la sortie de
 
 Le site [ResearchGate](http://researchgate.net) est un réseau social où on peut suivre des chercheurs, se créer un profil académique, et y entrer nos publications. Ce ne sont pas tous les chercheurs qui y ont un compte mais le site est néanmoins relativement populaire (du moins, dans mon domaine). Cela dit, ce ne sont pas tous les chercheurs qui y déposent leurs articles, et l’interface n’est pas tellement efficace pour faire une veille de la recherche de manière générale. Solution complémentaire dans mon cas.
 
-<img src="researchgate.png" style="width:80%">
+<figure>
+<img src="researchgate.png" style="width:100%">
+<figcaption>ResearchGate.</figcaption>
+</figure>
 
 ## Feedly
 
@@ -28,7 +31,10 @@ Le site [ResearchGate](http://researchgate.net) est un réseau social où on peu
 
 Un lecteur RSS est un moyen extrêmement efficace de passer en revue une grande quantité d’articles sans avoir nécessairement à visiter les pages web individuelles de chaque publication. La grande majorité des revues scientifiques et blogues possèdent des fils RSS auxquels il est possible de souscrire.
 
-<img src="feedly.png" style="width:80%">
+<figure>
+<img src="feedly.png" style="width:100%">
+<figcaption>Feedly.</figcaption>
+</figure>
 
 ## Twitter
 

@@ -37,13 +37,19 @@ Plus récent que `bibtex`, le format [BibLatex](https://ctan.org/pkg/biblatex?la
 
 [^1]: À noter que Texpad utilise son outil de compilation interne qui peut ne pas être compatible avec tous les packages latex, et qui peut devenir moins pratique pour les documents plus lourds.
 
-<img src="texpad.png" style="width:80%">
+<figure>
+<img src="texpad.png" style="width:100%">
+<figcaption>Texpad.</figcaption>
+</figure>
 
 ### Overleaf
 
 [Overleaf](https://www.overleaf.com) est un service en ligne qui permet de créer des documents latex et de les visualiser directement dans le fureteur. Se connecte optionnellement avec d’autres services (e.g. Github) ce qui peut être pratique. Possède également des fonctionnalités de collaboration entre auteurs.
 
-<img src="overleaf.png" style="width:80%">
+<figure>
+<img src="overleaf.png" style="width:100%">
+<figcaption>Overleaf.</figcaption>
+</figure>
 
 ### emacs
 

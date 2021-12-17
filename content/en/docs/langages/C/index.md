@@ -14,7 +14,10 @@ Un des attraits importants des langages compilés (tels C et C++) par rapport au
 
 Voici un bref comparatif:
 
-<img src="speed.png" style="width:80%">
+<figure>
+<img src="speed.png" style="width:100%">
+<figcaption>Vitesse d’exécution de quelques langages de programmation.</figcaption>
+</figure>
 
 Le principal désavantage de ce type de langage est toutefois l’offre beaucoup moins importante de librairies scientifiques (pas de `numpy` ici) et la syntaxe parfois plus complexe que celle des langages plus "haut niveau".
 

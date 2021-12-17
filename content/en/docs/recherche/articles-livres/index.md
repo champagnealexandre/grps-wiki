@@ -39,4 +39,7 @@ Gros foutoir de pdf où se retrouvent parfois quelques uns utiles
 [Journal Citation Report](https://jcr.clarivate.com/)\
 *La* référence pour comparer différents journaux entre eux.
 
-<img src="jcr.png" style="width:80%">
+<figure>
+<img src="jcr.png" style="width:100%">
+<figcaption>Journal Citation Report.</figcaption>
+</figure>

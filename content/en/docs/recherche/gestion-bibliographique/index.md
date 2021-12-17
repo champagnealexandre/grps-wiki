@@ -26,7 +26,10 @@ Il est également possible de payer pour la synchronisation de notre bibliograph
 * **zotxt** : utilisé notamment par [Hook](../../outils/autres-outils#hook)
 * **Zutilo** : permet toute une gamme de fonctions avancées, comme copier des liens URIs, etc.
 
-<img src="zotero.png" style="width:80%">
+<figure>
+<img src="zotero.png" style="width:100%">
+<figcaption>Zotero.</figcaption>
+</figure>
 
 ## JabRef
 
@@ -34,7 +37,10 @@ Il est également possible de payer pour la synchronisation de notre bibliograph
 
 [JabRef](https://www.jabref.org) est un autre logiciel de gestion bibliographique qui possède de nombreuses fonctionnalités. Malheureusement, je n’ai jamais réussi à le faire fonctionner correctement sous macOS donc difficile d’en parler davantage!
 
-<img src="jabref.png" style="width:80%">
+<figure>
+<img src="jabref.png" style="width:100%">
+<figcaption>Jabref.</figcaption>
+</figure>
 
 ## Mendeley
 
@@ -42,4 +48,7 @@ Il est également possible de payer pour la synchronisation de notre bibliograph
 
 [Mendeley](https://www.mendeley.com) est un logiciel de gestion bibliographique propriétaire de la compagnie d’édition Elsevier. Également disponible sur plusieurs plateformes. Je ne l’ai que très peu utilisé, donc je ne peux pas trop m’étendre à son sujet!
 
-<img src="mendeley.png" style="width:80%">
+<figure>
+<img src="mendeley.png" style="width:100%">
+<figcaption>Mendeley.</figcaption>
+</figure>

@@ -81,7 +81,10 @@ On peut se servir de git pour suivre les mises à jour d’un code (peu importe 
 
 [^1]: Généralement pour des fichiers texte (e.g. code source). Git ne prend pas en charge les fichiers volumineux, donc ce n’est pas *à proprement parler* une application de sauvegarde.
 
-<img src="git.gif" style="width:80%">
+<figure>
+<img src="git.gif" style="width:100%">
+<figcaption>git.</figcaption>
+</figure>
 
 ## parallel
 
@@ -99,7 +102,10 @@ parallel --env PATH --workdir . --sshloginfile ~/cluster_hosts.txt --sshdelay 0.
 
 pour lancer une série de processus sur la liste de serveurs contenue dans le fichier `cluster_hosts.txt`.
 
-<img src="parallel.jpg" style="width:80%">
+<figure>
+<img src="parallel.jpg" style="width:100%">
+<figcaption>GNU Parallel.</figcaption>
+</figure>
 
 ## curl et wget
 
@@ -121,7 +127,10 @@ wget www.google.com
 
 télécharge le fichier `index.html` du serveur.
 
-<img src="curl.png" style="width:80%">
+<figure>
+<img src="curl.png" style="width:100%">
+<figcaption>curl.</figcaption>
+</figure>
 
 ## imgcat
 
@@ -138,7 +147,10 @@ imgcat test.pdf
 
 affiche les fichiers `test.png` et `test.pdf`.
 
-<img src="imgcat.png" style="width:80%">
+<figure>
+<img src="imgcat.png" style="width:100%">
+<figcaption>imgcat.</figcaption>
+</figure>
 
 ## tar, gzip et (un)zip
 
@@ -182,7 +194,10 @@ et pour la décompresser,
 gzip -d <file.gz>
 ```
 
-<img src="tar.png" style="width:80%">
+<figure>
+<img src="tar.png" style="width:100%">
+<figcaption>tar.</figcaption>
+</figure>
 
 ## brew
 
@@ -196,7 +211,10 @@ Par exemple, pour installer `emacs` on peut faire
 brew install emacs
 ```
 
-<img src="brew.png" style="width:80%">
+<figure>
+<img src="brew.png" style="width:100%">
+<figcaption>Brew.</figcaption>
+</figure>
 
 ## emacs
 
@@ -209,7 +227,10 @@ Deux avantages importants de `emacs`:
 * il s’exécute via le terminal, donc possible de travailler à distance (e.g. via `ssh`) facilement
 * il possède d’innombrables raccourcis clavier (qui sont personnalisables), ce qui permet d’accélérer beaucoup l’édition de fichiers
 
-<img src="emacs.png" style="width:80%">
+<figure>
+<img src="emacs.png" style="width:100%">
+<figcaption>emacs.</figcaption>
+</figure>
 
 ## vi
 
@@ -219,7 +240,10 @@ Deux avantages importants de `emacs`:
 
 Présent également d’emblée sur les postes *nix.
 
-<img src="vi.png" style="width:80%">
+<figure>
+<img src="vi.png" style="width:100%">
+<figcaption>vi.</figcaption>
+</figure>
 
 ## time
 
@@ -241,4 +265,7 @@ ls -R . > /dev/null  4.44s user 5.10s system 62% cpu 15.152 total
 
 Le temps `total` est le temps "réel" pris par la commande pour être utilisée (ici, 15.152 sec)
 
-<img src="time.png" style="width:80%">
+<figure>
+<img src="time.png" style="width:100%">
+<figcaption>time.</figcaption>
+</figure>

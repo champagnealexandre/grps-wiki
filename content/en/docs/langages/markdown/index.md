@@ -23,7 +23,10 @@ Il est très utile pour prendre des notes de manière plus informelle qu’avec 
 
 [MacDown](https://macdown.uranusjr.com) est un éditeur open source sous macOS qui permet de créer rapidement des documents Markdown et de les prévisualiser.
 
-<img src="macdown.png" style="width:80%">
+<figure>
+<img src="macdown.png" style="width:100%">
+<figcaption>Macdown.</figcaption>
+</figure>
 
 ### emacs
 

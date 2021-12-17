@@ -48,7 +48,10 @@ On peut insérer ce lien dans un autre programme qui supporte les URIs (e.g. mac
 
 Peut être utilisé pour accéder de manière distante aux fichiers présents sur la grappe de calcul.
 
-<img src="mountainduck.png" style="width:80%">
+<figure>
+<img src="mountainduck.png" style="width:100%">
+<figcaption>MountainDuck.</figcaption>
+</figure>
 
 ## Toggl
 
@@ -56,7 +59,10 @@ Peut être utilisé pour accéder de manière distante aux fichiers présents su
 
 [Toggl](http://toggl.com) permet de comptabiliser le temps passé sur des projets.
 
-<img src="toggl.png" style="width:80%">
+<figure>
+<img src="toggl.png" style="width:100%">
+<figcaption>Toggl.</figcaption>
+</figure>
 
 ## Todoist
 
@@ -64,7 +70,10 @@ Peut être utilisé pour accéder de manière distante aux fichiers présents su
 
 [Todoist](http://todoist.com) est une application de gestion de tâches disponible sur plusieurs plateformes, et qui est assez bien conçue de manière générale.
 
-<img src="todoist.png" style="width:80%">
+<figure>
+<img src="todoist.png" style="width:100%">
+<figcaption>Todoist.</figcaption>
+</figure>
 
 ## Focus
 
@@ -78,7 +87,10 @@ Peut être utilisé pour accéder de manière distante aux fichiers présents su
 
 [whenisgood](http://whenisgood.net) est une application web qui permet de comparer les disponibilités afin de planifier des rencontres.
 
-<img src="whenisgood.png" style="width:80%">
+<figure>
+<img src="whenisgood.png" style="width:100%">
+<figcaption>Whenisgood.</figcaption>
+</figure>
 
 ## Alfred
 
@@ -86,4 +98,7 @@ Peut être utilisé pour accéder de manière distante aux fichiers présents su
 
 [Alfred](https://www.alfredapp.com) est une application qui permet d’invoquer une ligne de commande graphique permettant de lancer des applications, chercher des fichiers, appeler des fonctions personnalisables, etc.
 
-<img src="alfred.png" style="width:80%">
+<figure>
+<img src="alfred.png" style="width:100%">
+<figcaption>Alfred.</figcaption>
+</figure>

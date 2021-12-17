@@ -26,4 +26,7 @@ Un tel logiciel peut être utile pour y déposer e.g.
 
 L’utilisation de fichiers markdown rend facile l’écriture d’équations et l’inclusion d’images ou de tableaux dans ces notes. On peut aussi facilement créer des liens entre les notes, et la mise en forme des documents est plus rapide qu’avec un logiciel conventionnel d’édition (e.g. Word), tout en gardant le "look" des documents LaTeX (mais sans la complexité d’un tel document). Il est également possible, via [Hook](../../outils/autres-outils#hook), de créer des liens vers des courriels, des dossiers, des items dans [Zotero](../gestion-bibliographique#zotero), etc.
 
-<img src="obsidian.png" style="width:80%">
+<figure>
+<img src="obsidian.png" style="width:100%">
+<figcaption>Obsidian.</figcaption>
+</figure>
