@@ -8,6 +8,7 @@ description: >
 
 {{% pageinfo %}}
 On présente dans cette page les rudiments du langage de scripts bash -- création d’un script, syntaxe de base, etc.
+[Reférences: Alexandre Lemerle, Alexandre Champagne-Ruel]
 {{% /pageinfo %}}
 
 L’utilisation de scripts `bash` (ou son alternative, `zsh`) est un moyen pratique d’automatiser une foule de tâches dans un environnement *nix (linux, macOS, etc.) -- du lancement automatique de codes de calcul à l’exécution de tâches de maintenance.
@@ -28,6 +29,7 @@ On doit ensuite inscrire la ligne suivante au début du fichier:
 ```bash
 #/usr/bin/env bash
 ```
+## Usage de base
 
 Chaque ligne d’un script bash est ensuite simplement exécutée comme si elle était entrée manuellement à l’invite de commande.
 
@@ -48,6 +50,15 @@ NAME="John"
 echo $NAME
 echo "$NAME"
 echo "${NAME}!"
+```
+
+Il possible d'effectuer certaines opérations mathématiques de base en bash, qui pourraient être utiles pour nommer des fichiers de façon séquentielle, par exemple, mais la syntaxe n'est pas très sexy:
+
+```bash
+NCYC=2
+NREP=8
+NT=$((100*NCYC*NREP))
+SIMNAME='simcool_'$NT
 ```
 
 etc.
