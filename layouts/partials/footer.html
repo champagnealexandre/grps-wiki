@@ -7,17 +7,16 @@ images.forEach(img => {
     margin: 0,
     scrollOffset: 40,
     background: "#fff",
-    container: {
-     top: 100,
-     bottom: 50,
-     right: 300,
-     left: 300,
-     },
   });
 });
 </script>
 
 <style>
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+  z-index: 999;
+}
+
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
